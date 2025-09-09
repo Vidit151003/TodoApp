@@ -7,15 +7,6 @@ A clean, minimal MERN-stack Todo application with CRUD functionality. Frontend i
 ## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
-- [Setup & Run](#setup--run)
-- [Environment Variables](#environment-variables)
-- [API](#api)
-- [Screenshots](#screenshots)
-- [Roadmap](#roadmap)
-- [Author](#author)
-- [License](#license)
 
 ---
 
@@ -29,31 +20,8 @@ A clean, minimal MERN-stack Todo application with CRUD functionality. Frontend i
 ---
 
 ## Tech Stack
-- **Frontend:** React, Axios
+- **Frontend:** React,
 - **Backend:** Node.js, Express.js, Mongoose
 - **Database:** MongoDB (local)
 
----
 
-## Project Structure
-```bash
-.
-├── client/                      # React app
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   └── package.json
-│
-├── server/                      # Express API
-│   ├── models/                  # Mongoose schemas
-│   │   └── Todo.js
-│   ├── routes/                  # API routes
-│   │   └── todos.js
-│   ├── server.js                # App entry
-│   ├── .env.example
-│   └── package.json
-│
-└── README.md
